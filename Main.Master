@@ -34,15 +34,15 @@
             margin-right: 0.5rem;
         }
         .navbar-nav .nav-item .nav-link {
-        color: #054305; /* default text color */
+        color: #054305 !important; /* default text color */
         }
 
         .navbar-nav .nav-item .nav-link:hover {
-        color: #ffd700; /* gold color on hover */
+        color: #ffd700#ffd700 !important; /* gold color on hover */
         }
 
         .navbar-nav .nav-item.active .nav-link {
-        color: #ffd700 !important; /* active link color */
+        color: #c6b452 !important; /* active link color */
         }                
     </style>
 </head>
@@ -123,26 +123,33 @@
             <li style="color:darkgreen"><b>Telephone:</b><br><li style="color:white">021 34570141<br>021 34603737</li></li>
           </ul>
         </div>
+
         <div class="col-md-4 mb-3">
           <h5 class="text-uppercase" style="color:darkgreen;margin-left:0px"><b>Helpful Links</b></h5>
             <br>
           <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">HOME</a></ul>
+
               <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">ABOUT</a></ul>
+
                   <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">GALLERY</a></ul>
+
                       <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">CONTACT</a></ul>
+
                           <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">CAREER</a></ul>
+
                               <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">SERVICES</a></ul>
+
                                   <ul class="list-unstyled" >
             <a href="#" class="text-white" style="font-size:small">GET A PRICE</a>
-                                      <ul class="list-unstyled" >
           </ul>
         </div>
+
         <div class="col-md-4 mb-3">
           <h5 class="text-uppercase" style="color:darkgreen""><b>Get Quote</b></h5><br>
           <button class="btn btn-success btn-block mb-2" style="background-color:darkgreen">Booking</button>

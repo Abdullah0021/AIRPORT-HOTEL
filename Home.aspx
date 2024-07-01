@@ -72,27 +72,27 @@
              
               <div class="col-sm-4" style="width:200px" >
                    <ul class="list-unstyled">
-                  <li><a  class="nav-link text-secondary d-flex align-items-center" href="#"> <i class="fas fa-wifi" style="color: #054305; margin-right: 5px;"></i>Access Internet </a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-swimming-pool" style="color: #054305; margin-right: 5px;"></i>Swimming Pool</a></li>
-                  <li><a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-weight" style="color: #054305; margin-right:10px;"></i>Gymnasium</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-bus" style="color: #054305; margin-right:5px;"></i>Transportation</a></li>
+                  <li><a  class="nav-link text-secondary d-flex align-items-center" href="Access-internet.aspx"> <i class="fas fa-wifi" style="color: #054305; margin-right: 5px;"></i>Access Internet </a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Swimming-Pool.aspx"><i class="fas fa-swimming-pool" style="color: #054305; margin-right: 5px;"></i>Swimming Pool</a></li>
+                  <li><a class="nav-link text-secondary d-flex align-items-center" href="Gymnasium.aspx"><i class="fas fa-weight" style="color: #054305; margin-right:10px;"></i>Gymnasium</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Transportation.aspx"><i class="fas fa-bus" style="color: #054305; margin-right:5px;"></i>Transportation</a></li>
                   </ul>
                </div>
 
               <div class="col-sm-4" style="width:200px">
                    <ul class="list-unstyled">
-                <li>  <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-coffee" style="color: #054305; margin-right: 5px;"></i>Cafe Fly</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-cocktail" style="color: #054305; margin-right: 5px;"></i>Events</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-hamburger" style="color: #054305; margin-right: 5px;"></i>Restaurant</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-gamepad" style="color: #054305; margin-right: 5px;"></i>Game Room</a></li>                         
+                <li>  <a class="nav-link text-secondary d-flex align-items-center" href="Cafe-Fly.aspx"><i class="fas fa-coffee" style="color: #054305; margin-right: 5px;"></i>Cafe Fly</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Events.aspx"><i class="fas fa-cocktail" style="color: #054305; margin-right: 5px;"></i>Events</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Restaurant.aspx"><i class="fas fa-hamburger" style="color: #054305; margin-right: 5px;"></i>Restaurant</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Game-room.aspx"><i class="fas fa-gamepad" style="color: #054305; margin-right: 5px;"></i>Game Room</a></li>                         
               </ul>
                   </div>
               <div class="col-sm-4" style="width:200px" >
                 <ul class="list-unstyled">
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-parking" style="color: #054305; margin-right: 5px;"></i>Car Parking</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fas fa-hotel" style="color: #054305; margin-right: 5px;"></i>Room Service</a></li>
-                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fa fa-video" style="color: #054305; margin-right: 5px;"></i>Netflix</a></li>
-                <li>  <a class="nav-link text-secondary d-flex align-items-center" href="#"><i class="fa fa-bath" style="color: #054305; margin-right: 5px;"></i>Sauna Bath</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Car-parking.aspx"><i class="fas fa-parking" style="color: #054305; margin-right: 5px;"></i>Car Parking</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Room-service.aspx"><i class="fas fa-hotel" style="color: #054305; margin-right: 5px;"></i>Room Service</a></li>
+                 <li> <a class="nav-link text-secondary d-flex align-items-center" href="Netflix.aspx"><i class="fa fa-video" style="color: #054305; margin-right: 5px;"></i>Netflix</a></li>
+                <li>  <a class="nav-link text-secondary d-flex align-items-center" href="Sauna-bath.aspx"><i class="fa fa-bath" style="color: #054305; margin-right: 5px;"></i>Sauna Bath</a></li>
                   </ul>
                   </div>
           </div>
