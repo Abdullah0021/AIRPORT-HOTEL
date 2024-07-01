@@ -1,0 +1,35 @@
+﻿/* Custom styles */
+.featured-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+    .featured-section h4 {
+        color: #054305;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .featured-section h5 {
+        color: #c6b452;
+        margin-left: 40px;
+    }
+
+.convenience-list ul {
+    width: 200px; /* Adjust width as needed */
+}
+
+.section {
+    margin-right: 40px;
+}
+
+    .section img {
+        width: 100%; /* Ensure images fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .section h4 {
+        color: #054305;
+        margin-left: 13px;
+        font-size: 23px;
+    }
