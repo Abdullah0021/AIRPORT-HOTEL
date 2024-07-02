@@ -137,9 +137,9 @@
 
         <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
     <div class="col-sm-5">
-        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>SUITE ROOMS</b></h7>
-        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
-        <p style="font-size: large; color: white; margin: 0; font-display: auto;">
+        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px; margin-left:300px;"><b>SUITE ROOMS</b></h7>
+        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0; margin-left:300px;" />
+        <p style="font-size: large; color: white; margin: 0; font-display: auto; margin-left:300px;">
             Luxurious yet comfortable rooms at prime prices in five different categories: Standard, Deluxe, Executive, Cooperative Club, and Suites. The furnished rooms with marble bathrooms, LEDs, and splits, along with the facility of service and high-speed internet access. All you want is here, with room service, laundry, and housekeeping for deep cleaning of the rooms.
         </p>
     </div>
@@ -171,9 +171,7 @@
         </div>
     </div>
 </div>
-
-
-
+        <br />
         <br />
         <br />
         <br />
@@ -207,6 +205,24 @@
     </div>
 </div>
 
+        <br />
+        <br />
+        <br />
+
+        <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
+            <div class="col-sm-5" style="width: 400px; margin-top: 20px;">
+                <h7 style="color: #c6b452; font-size: 23px; margin-top: 50px;margin-left:300px;"><b>CORPORATE LOUNGE</b></h7>
+                <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;margin-left:300px;" />
+                <p style="font-size: large; color: white; margin: 0; font-display: auto;margin-left:300px;">
+                    The decorated glassed air conditioned room with the comfortable sofas where the guest can relax and watch the channels on LED or read a newspaper or a nice book in the most peaceful silent environment while waiting. On the ground floor, the corporate room is also reserved for personalized meetings where you can discuss queries.
+                </p>
+            </div>
+            <div style="margin-left: 20px; margin-top: 20px;">
+                <img src="cpl1.jpg" style="width: 550px; height: 283px; border: 2px solid #c6b452; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);" />
+            </div>
+        </div>
+
+        <br />
         <br />
         <br />
         <br />
