@@ -4,13 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.IO;
 namespace AIRPORT_HOTEL
 {
     public partial class AdminUploadFiles : System.Web.UI.Page
     {
-        public partial class Uploadwithmaster : System.Web.UI.Page
-        {
+      
             protected void Page_Load(object sender, EventArgs e)
             {
                 if (!IsPostBack)
@@ -130,4 +129,3 @@ namespace AIRPORT_HOTEL
             }
         }
     }
-}
