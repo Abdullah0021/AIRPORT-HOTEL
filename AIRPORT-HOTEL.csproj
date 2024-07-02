@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Access-internet.aspx" />
+    <Content Include="AdminUploadFiles.aspx" />
     <Content Include="Cafe-Fly.aspx" />
     <Content Include="Car-parking.aspx" />
     <Content Include="Events.aspx" />
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="Access-internet.aspx.designer.cs">
       <DependentUpon>Access-internet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUploadFiles.aspx.cs">
+      <DependentUpon>AdminUploadFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUploadFiles.aspx.designer.cs">
+      <DependentUpon>AdminUploadFiles.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cafe-Fly.aspx.cs">
       <DependentUpon>Cafe-Fly.aspx</DependentUpon>
