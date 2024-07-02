@@ -135,6 +135,49 @@
         <br />
         <br />
 
+        <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
+    <div class="col-sm-5">
+        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>SUITE ROOMS</b></h7>
+        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
+        <p style="font-size: large; color: white; margin: 0; font-display: auto;">
+            Luxurious yet comfortable rooms at prime prices in five different categories: Standard, Deluxe, Executive, Cooperative Club, and Suites. The furnished rooms with marble bathrooms, LEDs, and splits, along with the facility of service and high-speed internet access. All you want is here, with room service, laundry, and housekeeping for deep cleaning of the rooms.
+        </p>
+    </div>
+    <div class="carousel-container" style="width: 450px; margin-left: 20px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="sr1.jpg" alt="First slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr2.jpg" alt="Second slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr3.jpg" alt="Third slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr4.jpg" alt="Fourth slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr5.jpg" alt="Fifth slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr6.jpg" alt="Sixth slide" style="border: 2px solid #c6b452;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="sr7.jpg" alt="Seventh slide" style="border: 2px solid #c6b452;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <br />
+        <br />
+        <br />
+
         <div class="row" style="margin:auto;">
     <div class="col-sm-4" style="width:400px;">
         <img src="s1.jpg" style="width:100%; height:400px;" />
