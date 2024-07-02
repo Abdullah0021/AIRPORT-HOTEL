@@ -38,7 +38,7 @@
         }
 
         .navbar-nav .nav-item .nav-link:hover {
-        color: #ffd700#ffd700 !important; /* gold color on hover */
+        color: #ffd700 !important; /* gold color on hover */
         }
 
         .navbar-nav .nav-item.active .nav-link {
@@ -60,7 +60,7 @@
                     <a class="nav-link text-dark" href="Home.aspx"><b>HOME</b> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="About.aspx"><b>ABOUT</b></a>
+                    <a class="nav-link text-dark" href="about.aspx"><b>ABOUT</b></a>
                 </li>
                 <li class="nav-item"> 
                     <a class="nav-link text-dark" href="#"><b>GALLERY</b></a>
@@ -95,6 +95,10 @@
             </form>
         </div>
     </nav>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <form id="form1" runat="server">
         <div>
@@ -125,33 +129,33 @@
         </div>
 
         <div class="col-md-4 mb-3">
-          <h5 class="text-uppercase" style="color:darkgreen;margin-left:0px"><b>Helpful Links</b></h5>
+          <h5 class="text-uppercase" style="color:#004101   ;margin-left:0px"><b>Helpful Links</b></h5>
             <br>
           <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">HOME</a></ul>
+            <a href="Home.aspx" class="text-white" style="font-size:small">HOME</a></ul>
 
               <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">ABOUT</a></ul>
+            <a href="about.aspx" class="text-white" style="font-size:small">ABOUT</a></ul>
 
                   <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">GALLERY</a></ul>
+            <a href="gallery.aspx" class="text-white" style="font-size:small">GALLERY</a></ul>
 
                       <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">CONTACT</a></ul>
+            <a href="contact.aspx" class="text-white" style="font-size:small">CONTACT</a></ul>
 
                           <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">CAREER</a></ul>
+            <a href="career.aspx" class="text-white" style="font-size:small">CAREER</a></ul>
 
                               <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">SERVICES</a></ul>
+            <a href="services.aspx" class="text-white" style="font-size:small">SERVICES</a></ul>
 
                                   <ul class="list-unstyled" >
-            <a href="#" class="text-white" style="font-size:small">GET A PRICE</a>
+            <a href="Home.aspx" class="text-white" style="font-size:small">GET A PRICE</a>
           </ul>
         </div>
 
         <div class="col-md-4 mb-3">
-          <h5 class="text-uppercase" style="color:darkgreen""><b>Get Quote</b></h5><br>
+          <h5 class="text-uppercase" style="color:#004101""><b>Get Quote</b></h5><br>
           <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Booking</button>
           <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Tender</button>
           <button class="btn btn-success btn-block mb-2" style="background-color:#004101">RFQ</button>
@@ -163,9 +167,9 @@
         <span >Skyrooms (Pvt.) Ltd | Powered by PIA (I&CT)</span>
         <div>
             
-          <a href="#" class="text-white mr-3"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-white mr-3"><i class="bi bi-youtube"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/" class="text-white mr-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/" class="text-white mr-3"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
         </div>
       </div>
     </div>
