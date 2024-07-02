@@ -43,11 +43,30 @@
 
         .navbar-nav .nav-item.active .nav-link {
         color: #c6b452 !important; /* active link color */
-        }                
+        }
+
+        /* Style for the WhatsApp button */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
     </style>
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <a class="navbar-brand" href="#"><img src="./APH.png" width="125px" height="90px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +125,13 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -116,64 +141,69 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <footer class="text-white pt-4" style="background-color:#c6b452"> 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <h5 class="text-uppercase" style="color:#004101"><b>Get in Touch</b></h5>
-          <ul class="list-unstyled">
-            <li style="color:#004101" ><b>Address:</b><br>
-                <li style="color: white">Airport Hotel, Star Gate Road, Near Old</li>Airport Road, Karachi – 75530 (Pakistan).</li>
-            <li style="color:#004101"><b>Email:</b><br><li style="color:white">info@localhost</li></li>
-            <li style="color:#004101"><b>Telephone:</b><br><li style="color:white">021 34570141<br>021 34603737</li></li>
-          </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase" style="color:#004101"><b>Get in Touch</b></h5>
+                    <ul class="list-unstyled">
+                        <li style="color:#004101"><b>Address:</b><br>
+                            <li style="color: white">Airport Hotel, Star Gate Road, Near Old</li>Airport Road, Karachi – 75530 (Pakistan).</li>
+                        <li style="color:#004101"><b>Email:</b><br><li style="color:white">info@localhost</li></li>
+                        <li style="color:#004101"><b>Telephone:</b><br><li style="color:white">021 34570141<br>021 34603737</li></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase" style="color:#004101   ;margin-left:0px"><b>Helpful Links</b></h5>
+                    <br>
+                    <ul class="list-unstyled">
+                        <a href="Home.aspx" class="text-white" style="font-size:small">HOME</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="about.aspx" class="text-white" style="font-size:small">ABOUT</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="gallery.aspx" class="text-white" style="font-size:small">GALLERY</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="contact.aspx" class="text-white" style="font-size:small">CONTACT</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="career.aspx" class="text-white" style="font-size:small">CAREER</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="services.aspx" class="text-white" style="font-size:small">SERVICES</a>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <a href="Home.aspx" class="text-white" style="font-size:small">GET A PRICE</a>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase" style="color:#004101"><b>Get Quote</b></h5><br>
+                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Booking</button>
+                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Tender</button>
+                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">RFQ</button>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md-4 mb-3">
-          <h5 class="text-uppercase" style="color:#004101   ;margin-left:0px"><b>Helpful Links</b></h5>
-            <br>
-          <ul class="list-unstyled" >
-            <a href="Home.aspx" class="text-white" style="font-size:small">HOME</a></ul>
-
-              <ul class="list-unstyled" >
-            <a href="about.aspx" class="text-white" style="font-size:small">ABOUT</a></ul>
-
-                  <ul class="list-unstyled" >
-            <a href="gallery.aspx" class="text-white" style="font-size:small">GALLERY</a></ul>
-
-                      <ul class="list-unstyled" >
-            <a href="contact.aspx" class="text-white" style="font-size:small">CONTACT</a></ul>
-
-                          <ul class="list-unstyled" >
-            <a href="career.aspx" class="text-white" style="font-size:small">CAREER</a></ul>
-
-                              <ul class="list-unstyled" >
-            <a href="services.aspx" class="text-white" style="font-size:small">SERVICES</a></ul>
-
-                                  <ul class="list-unstyled" >
-            <a href="Home.aspx" class="text-white" style="font-size:small">GET A PRICE</a>
-          </ul>
+        <div class="text-center py-3" style="background-color:#004101">
+            <div class="container d-flex justify-content-between align-items-center">
+                <span>Skyrooms (Pvt.) Ltd | Powered by PIA (I&CT)</span>
+                <div>
+                    <a href="https://www.facebook.com/" class="text-white mr-3"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.youtube.com/" class="text-white mr-3"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md-4 mb-3">
-          <h5 class="text-uppercase" style="color:#004101""><b>Get Quote</b></h5><br>
-          <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Booking</button>
-          <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Tender</button>
-          <button class="btn btn-success btn-block mb-2" style="background-color:#004101">RFQ</button>
-        </div>
-      </div>
-    </div>
-    <div class="text-center py-3" style="background-color:#004101" >
-      <div class="container d-flex justify-content-between align-items-center">
-        <span >Skyrooms (Pvt.) Ltd | Powered by PIA (I&CT)</span>
-        <div>
-            
-          <a href="https://www.facebook.com/" class="text-white mr-3"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.youtube.com/" class="text-white mr-3"><i class="bi bi-youtube"></i></a>
-          <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
     <%-- for fonts and logos script --%>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
