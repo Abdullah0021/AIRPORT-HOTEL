@@ -5,6 +5,10 @@
     <!DOCTYPE html>
     <html>
     <head>
+         <%--  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">--%>
         <style>
     .list-unstyled li:hover a {
         color: #c6b452 !important; /* Change color to gold on hover */
@@ -136,14 +140,15 @@
         <br />
 
         <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
-    <div class="col-sm-5">
-        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px; margin-left:300px;"><b>SUITE ROOMS</b></h7>
-        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0; margin-left:300px;" />
-        <p style="font-size: large; color: white; margin: 0; font-display: auto; margin-left:300px;">
+    
+            <div class="col-sm-5">
+        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px"><b>SUITE ROOMS</b></h7>
+        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
+        <p style="font-size: large; color: white; margin: 0;">
             Luxurious yet comfortable rooms at prime prices in five different categories: Standard, Deluxe, Executive, Cooperative Club, and Suites. The furnished rooms with marble bathrooms, LEDs, and splits, along with the facility of service and high-speed internet access. All you want is here, with room service, laundry, and housekeeping for deep cleaning of the rooms.
         </p>
     </div>
-    <div class="carousel-container" style="width: 450px; margin-left: 20px;">
+    <div class="carousel-container" style="width: 450px; margin-left: 20px; style="position:fixed">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -211,12 +216,13 @@
 
         <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
     <div class="col-sm-5">
-    <h7 style="color: #c6b452; font-size: 23px; margin-top: 50px;margin-left:300px;"><b>CORPORATE LOUNGE</b></h7>
-    <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;margin-left:300px;" />
-    <p style="font-size: large; color: white; margin: 0; font-display: auto;margin-left:300px;">
+    <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>CORPORATE LOUNGE</b></h7>
+    <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
+    <p style="font-size: large; color: white; margin: 0;">
         The decorated glassed air conditioned room with the comfortable sofas where the guest can relax and watch the channels on LED or read a newspaper or a nice book in the most peaceful silent environment while waiting. On the ground floor, the corporate room is also reserved for personalized meetings where you can discuss queries.
     </p>    
     </div>
+
     <div class="carousel-container" style="width: 450px; margin-left: 20px;">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">

@@ -82,7 +82,7 @@
                     <a class="nav-link text-dark" href="about.aspx"><b>ABOUT</b></a>
                 </li>
                 <li class="nav-item"> 
-                    <a class="nav-link text-dark" href="#"><b>GALLERY</b></a>
+                    <a class="nav-link text-dark" href="Gallery.aspx"><b>GALLERY</b></a>
 
                 </li>
                 <li class="nav-item">
@@ -165,7 +165,7 @@
                     </ul>
 
                     <ul class="list-unstyled">
-                        <a href="gallery.aspx" class="text-white" style="font-size:small">GALLERY</a>
+                        <a href="Gallery.aspx" class="text-white" style="font-size:small">GALLERY</a>
                     </ul>
 
                     <ul class="list-unstyled">
