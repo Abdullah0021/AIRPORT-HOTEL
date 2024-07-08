@@ -50,6 +50,7 @@
             position: relative;
             width: 100%; /* Default to full width */
             margin: 2px; /* 2px space between images */
+            transition: 1s;
         }
 
         .image {
@@ -106,19 +107,19 @@
                 width: 100%; /* 1 button per row */
             }
         }
-        .mainDiv{
-            margin-left:auto;
-           
-        }
+    .mainDiv{
+        margin-left:auto;
+   
+    }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <img class="section" style="padding:10px" src="about.jpg" alt="About Image">
+        <img class="section" src="about.jpg" alt="About Image" style="padding:20px">
     </div>
-    <h1 style="text-align:center; padding:10px; color:#c6b452; font-size:36px; padding-top:50px; padding-bottom:50px;"><b>All Galleries</b></h1>
-    <div class="row" style="padding:30px">
+    <h1 style="text-align:center; padding:20px ;color:#c6b452; font-size:36px; padding-top:50px; padding-bottom:50px"><b>All Galleries</b></h1>
+    <div class="row" style="padding:20px">
         <div class="col-sm-6 col-md-3 mb-2 button-container">
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Hotel-id" style="text-decoration: none; color: white;">Hotel Rooms</a></button>
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Swimming-id" style="text-decoration: none; color: white;">Swimming Pool</a></button>
@@ -138,12 +139,11 @@
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Garden-id" style="text-decoration: none; color: white;">Garden Area</a></button>
         </div>
     </div>
-    <%--ee--%>
-    <div class="mainDiv" style="padding:30px;">
-   <div id="Hotel-id" style="padding:30px">
+    <div class="mainDiv" style="padding:20px">
+   <div id="Hotel-id" style="padding:20px">
         <h2><b>Hotel Rooms</b></h2>
         <div class="row">
-                        <div class="image-container">
+            <div class="image-container">
                 <img src="sr1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
@@ -344,6 +344,7 @@
                 <img src="d7.jpg" alt="Avatar" class="image">
             </div>
                     </div>
+                </div>
 
     <div id="Game-id">
         <h2><b>Game Room</b></h2>
@@ -375,43 +376,35 @@
         <h2><b>Events</b></h2>
                 <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="e1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="e2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="e1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="e2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="e1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="e2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
+                <img src="e1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="e2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="e1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="e2.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-            </div>
-
-            <!-- Add more images here -->
         </div>
     </div>
 
