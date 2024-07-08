@@ -44,7 +44,7 @@
     <form id="form1" runat="server">
                 <div class="container mt-4">
             <div class="logo">
-                <img src="APH.png" alt="Logo" style="width: 90px; height: 80px;">
+                <img src="APHH.png" alt="Logo" style="width: 90px; height: 80px;">
             </div>
             <div class="header">
                 <h2>Tender Admin Dashboard</h2>
@@ -75,9 +75,9 @@
             </div>
             <asp:Button ID="btnUpload" runat="server" CssClass="btn btn-custom" Text="Upload" OnClick="btnUpload_Click" />
             <br /><br />
-            <asp:Button ID="btnShowTenders" runat="server" href="tender.aspx" CssClass="btn btn-custom" Text="Show Tender List" OnClick="btnShowTenders_Click" />
+            <asp:Button ID="btnShowTenders" runat="server" href="Tenders.aspx" CssClass="btn btn-custom" Text="Show Tender List" OnClick="btnShowTenders_Click" />
             <br /><br />
-            <asp:GridView ID="gvTenders" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered mt-3" Visible="False">
+            <asp:GridView ID="gvTenders" runat="server" href="Tenders.aspx" AutoGenerateColumns="False" CssClass="table table-striped table-bordered mt-3" Visible="False">
                 <Columns>
                     <asp:BoundField DataField="Title" HeaderText="Title" />
                     <asp:ImageField DataImageUrlField="Thumbnail" HeaderText="Thumbnail" DataImageUrlFormatString="~/Uploads/{0}" ControlStyle-Height="50px" ControlStyle-Width="50px">

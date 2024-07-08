@@ -80,8 +80,10 @@
     <Content Include="Sauna-bath.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Swimming-Pool.aspx" />
+    <Content Include="Tenders.aspx" />
     <Content Include="Transportation.aspx" />
     <Content Include="UploadedImages\a1.jpg" />
+    <Content Include="Uploads\APHH.png" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
   </ItemGroup>
@@ -209,6 +211,13 @@
     <Compile Include="Swimming-Pool.aspx.designer.cs">
       <DependentUpon>Swimming-Pool.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tenders.aspx.cs">
+      <DependentUpon>Tenders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tenders.aspx.designer.cs">
+      <DependentUpon>Tenders.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Transportation.aspx.cs">
       <DependentUpon>Transportation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,9 +238,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Documents\" />
     <Folder Include="Models\" />
     <Folder Include="UploadedFiles\" />
-    <Folder Include="Uploads\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
