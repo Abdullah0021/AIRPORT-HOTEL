@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace AIRPORT_HOTEL
 {
@@ -19,7 +16,6 @@ namespace AIRPORT_HOTEL
 
         private void BindTenders()
         {
-            // Replace with your logic to fetch tenders data
             List<Tender> tenders = GetTendersFromDatabase();
 
             gvTenders.DataSource = tenders;
@@ -28,16 +24,40 @@ namespace AIRPORT_HOTEL
 
         private List<Tender> GetTendersFromDatabase()
         {
-            // Replace with your database query or data retrieval logic
-            // Example of returning dummy data:
-            return new List<Tender>
+            List<Tender> tenders = new List<Tender>();
+
+            // Replace with your connection string
+            string connectionString = "Data Source=DESKTOP-NECUO9J;Initial Catalog=Tenders;Integrated Security=True";
+
+            // SQL query to retrieve data
+            string query = "SELECT Title, Thumbnail, UploadDate, ExpiryDate FROM AdminUploads";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                new Tender { Title = "Tender 1", Thumbnail = "APH.jpg", UploadDate = DateTime.Now, ExpiryDate = DateTime.Now.AddDays(30) },
-                new Tender { Title = "Tender 2", Thumbnail = "APHH.png", UploadDate = DateTime.Now, ExpiryDate = DateTime.Now.AddDays(45) }
-            };
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        Tender tender = new Tender
+                        {
+                            Title = reader["Title"].ToString(),
+                            Thumbnail = reader["Thumbnail"].ToString(),
+                            UploadDate = Convert.ToDateTime(reader["UploadDate"]),
+                            ExpiryDate = Convert.ToDateTime(reader["ExpiryDate"])
+                        };
+                        tenders.Add(tender);
+                    }
+
+                    reader.Close();
+                }
+            }
+
+            return tenders;
         }
 
-        // Example class for Tender
         public class Tender
         {
             public string Title { get; set; }
