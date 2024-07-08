@@ -89,22 +89,22 @@
 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><b>CONTACT</b></a>
+                    <a class="nav-link text-dark" href="Contact.aspx"><b>CONTACT</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><b>CAREER</b></a>
+                    <a class="nav-link text-dark" href="Career.aspx"><b>CAREER</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><b>SERVICES</b></a>
+                    <a class="nav-link text-dark" href="Services.aspx"><b>SERVICES</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark " href="#"><b>RFQ</b></a>
+                    <a class="nav-link text-dark " href="Services.aspx"><b>RFQ</b></a>
                 </li>
                 <li class="nav-item">
-                    <button type="button" class="btn custom-button mr-2 "><a href="#"><b>TENDER</b></a></button>
+                    <button type="button" class="btn custom-button mr-2 "><a href="Tenders.aspx"><b>TENDER</b></a></button>
                 </li>
                 <li class="nav-item">
-                    <button type="button" class="btn custom-button-2 mr-2"><a href="#"><b>Booking</b></a></button>
+                    <button type="button" class="btn custom-button-2 mr-2"><a href="Booking.aspx"><b>Booking</b></a></button>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
