@@ -106,15 +106,19 @@
                 width: 100%; /* 1 button per row */
             }
         }
+        .mainDiv{
+            margin-left:auto;
+           
+        }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <img class="section" src="about.jpg" alt="About Image">
+        <img class="section" style="padding:10px" src="about.jpg" alt="About Image">
     </div>
-    <h1 style="text-align:center; color:#c6b452; font-size:36px; padding-top:50px; padding-bottom:50px"><b>All Galleries</b></h1>
-    <div class="row">
+    <h1 style="text-align:center; padding:10px; color:#c6b452; font-size:36px; padding-top:50px; padding-bottom:50px;"><b>All Galleries</b></h1>
+    <div class="row" style="padding:30px">
         <div class="col-sm-6 col-md-3 mb-2 button-container">
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Hotel-id" style="text-decoration: none; color: white;">Hotel Rooms</a></button>
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Swimming-id" style="text-decoration: none; color: white;">Swimming Pool</a></button>
@@ -134,11 +138,12 @@
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Garden-id" style="text-decoration: none; color: white;">Garden Area</a></button>
         </div>
     </div>
-    <div class="col-sm-11">
-   <div id="Hotel-id">
+    <%--ee--%>
+    <div class="mainDiv" style="padding:30px;">
+   <div id="Hotel-id" style="padding:30px">
         <h2><b>Hotel Rooms</b></h2>
         <div class="row">
-            <div class="image-container">
+                        <div class="image-container">
                 <img src="sr1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
@@ -205,19 +210,6 @@
             <div class="image-container">
                 <img src="sw8.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sw9.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sw10.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sw11.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sw12.jpg" alt="Avatar" class="image">
-            </div>
-   <!-- Add more images here -->
                     </div>
                 </div>
 
@@ -225,85 +217,62 @@
         <h2 ><b>Cafe Fly</b></h2>
             <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="ca1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="ca2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="ca3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="ca4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="ca5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="ca6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
+                <img src="ca7.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="ca8.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="ca9.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="ca10.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-
-                        <!-- Add more images here -->
-        </div>
     </div>
 
     <div id="Sauna-id">
         <h2><b>Sauna Bath</b></h2>
                 <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="sa1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="sa2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="sa3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="sa4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="sa5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="sa6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
+                <img src="sa7.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-            </div>
-                        <!-- Add more images here -->
+
         </div>
     </div>
 
@@ -354,87 +323,51 @@
         <h2><b>Dining Hall</b></h2>
                 <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="d1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="d2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="d3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="d4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="d5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="d6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
+                <img src="d7.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-            </div>
-
-                        <!-- Add more images here -->
                     </div>
-                </div>
 
     <div id="Game-id">
         <h2><b>Game Room</b></h2>
                 <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="gm1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="gm2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="gm3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="gm4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="gm5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="gm6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-            </div>
-
-            <!-- Add more images here -->
+                <img src="gm7.jpg" alt="Avatar" class="image">
         </div>
     </div>
 
@@ -486,44 +419,26 @@
         <h2><b>Gymnasium</b></h2>
                 <div class="row">
             <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
+                <img src="j1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
+                <img src="j2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
+                <img src="j3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
+                <img src="j4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
+                <img src="j5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr6.jpg" alt="Avatar" class="image">
+                <img src="j6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="sr7.jpg" alt="Avatar" class="image">
+                <img src="j7.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="sr1.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr2.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr4.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="sr5.jpg" alt="Avatar" class="image">
-            </div>
-
-            <!-- Add more images here -->
-        </div>
     </div>
 
     <div id="Garden-id">
@@ -531,43 +446,26 @@
         
                 <div class="row">
             <div class="image-container">
-                <img src="gr1.jpg" alt="Avatar" class="image">
+                <img src="ga1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr2.jpg" alt="Avatar" class="image">
+                <img src="ga2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr9.jpg" alt="Avatar" class="image">
+                <img src="ga3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr4.jpg" alt="Avatar" class="image">
+                <img src="ga4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr5.jpg" alt="Avatar" class="image">
+                <img src="ga5.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr2.jpg" alt="Avatar" class="image">
+                <img src="ga6.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="gr7.jpg" alt="Avatar" class="image">
+                <img src="ga7.jpg" alt="Avatar" class="image">
             </div>
-            <div class="image-container">
-                <img src="gr8.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="gr9.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="gr10.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="gr11.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="gr12.jpg" alt="Avatar" class="image">
-            </div>
-
-                        <!-- Add more images here -->
         </div>
     </div>
         </div>
