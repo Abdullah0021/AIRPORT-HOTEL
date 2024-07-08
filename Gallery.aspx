@@ -48,23 +48,24 @@
 
         .image-container {
             position: relative;
-            width: 100%; /* Default to full width */
-            margin: 2px; /* 2px space between images */
+            width: auto; /* Default to full width */
+            margin: 8px; /* 2px space between images */
+            transition: 1s;
         }
 
+        .image-container:hover{
+            transform:scale(1.08);
+        }
         .image {
             opacity: 1;
             display: block;
             width: 100%;
             height: auto;
-            transition: .5s ease;
             backface-visibility: hidden;
-            border: 5px solid #054305; /* Add border to images */
+            border: 7px solid #054305; /* Add border to images */
         }
 
-        .image-container:hover .image {
-            opacity: 0.3;
-        }
+       
 
         .image-grid {
             display: flex;
@@ -106,6 +107,11 @@
                 width: 100%; /* 1 button per row */
             }
         }
+        .mainDiv{
+            margin-left:auto;
+           
+        }
+
     </style>
 </asp:Content>
 
@@ -134,8 +140,9 @@
             <button class="btn btn-block custom-button-2 mb-2"><a href="#Garden-id" style="text-decoration: none; color: white;">Garden Area</a></button>
         </div>
     </div>
-    <div class="col-sm-11">
-   <div id="Hotel-id">
+    <%--ee--%>
+    <div class="mainDiv">
+   <div id="Hotel-id" style="padding:20px">
         <h2><b>Hotel Rooms</b></h2>
         <div class="row">
             <div class="image-container">
