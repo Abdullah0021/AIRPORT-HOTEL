@@ -15,20 +15,16 @@
         <br />
         <br />
         <br />
-        <br />
-        <br />
     <div class="row" style="margin:auto; display: flex; align-items: center; justify-content: center;">
-        <div class="col-sm-4" style="display: flex; flex-direction: row; align-items: center;">
             <img src="sauna1.jpg" style="width: 550px; height: 283px; border: 2px solid #c6b452; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); margin-right: 20px; margin-top: 45px;" />
             <div class="col-sm-5" style="width: 400px; margin-top: 20px;">
                 <h7 style="color:#054305; font-size: 23px; margin-bottom: 10px;"><b>SAUNA BATH</b></h7>
                 <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
-                <p style="font-size: large; color: gray; margin: 0;">
+                <p style="font-size: large; color: gray; margin: 0;text-align:justify;">
                     Blow of your tensions and enjoy the relaxing session of sauna as the blood vessels relax in sauna, blood flow increases, and the experience can help reduce tension in the joints and relieve sore muscles.
                 </p>
             </div>
         </div>
-    </div>
         <br />
         <br />
         <br />

@@ -15,20 +15,16 @@
         <br />
         <br />
         <br />
-        <br />
-        <br />
     <div class="row" style="margin:auto; display: flex; align-items: center; justify-content: center;">
-        <div class="col-sm-4" style="display: flex; flex-direction: row; align-items: center;">
             <img src="gym1.jpg" style="width: 550px; height: 283px; border: 2px solid #c6b452; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); margin-right: 20px; margin-top: 45px;" />
             <div class="col-sm-5" style="width: 400px; margin-top: 45px;">
                 <h7 style="color:#054305; font-size: 23px; margin-bottom: 10px;"><b>GYMNASIUM</b></h7>
                 <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
-                <p style="font-size: large; color: gray; margin: 0;">
+                <p style="font-size: large; color: gray; margin: 0;text-align:justify;">
                     All the latest equipment’s to keep you in track of your fitness routines with the guidance of skilled trainer because the fitness of your health come first and there should be no lack for people who workout regular.
                 </p>
             </div>
         </div>
-    </div>
         <br />
         <br />
         <br />

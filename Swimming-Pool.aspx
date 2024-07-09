@@ -15,19 +15,15 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
 <div class="row" style="margin:auto; display: flex; align-items: center; justify-content: center;">
-    <div class="col-sm-4" style="display: flex; flex-direction: row; align-items: center;">
         <img src="swim1.jpg" style="width: 550px; height: 283px; border: 2px solid #c6b452; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); margin-right: 20px; margin-top: 50px;" />
         <div class="col-sm-5" style="width:400px;margin-top:0px;" >
             <h7 style="color:#054305; font-size: 23px; margin-bottom: 10px;"><b>SWIMMING POOL</b></h7>
-            <p style="font-size: large; color: gray; margin: 0;">
+            <p style="font-size: large; color: gray; margin: 0;text-align:justify;">
                 Outdoor Swimming Pool is the sort of relaxation and fun for people of all ages. Airport hotel Karachi facilitates its guests with the hygienic and a wide swimming pool. Splashing the water and beating the heat during the summer. During the winters there is a facility of warm water outdoor swimming pools so you don’t have to miss the fun of swimming pool hesitating by the reason of cold water
             </p>
         </div>
     </div>
-</div>
     <br />
     <br />
     <br />
