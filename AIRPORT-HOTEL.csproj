@@ -12,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AIRPORT_HOTEL</RootNamespace>
     <AssemblyName>AIRPORT-HOTEL</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -69,6 +69,7 @@
     <Content Include="AdminUploadFiles.aspx" />
     <Content Include="Cafe-Fly.aspx" />
     <Content Include="Car-parking.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="Events.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="Game-room.aspx" />
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="Car-parking.aspx.designer.cs">
       <DependentUpon>Car-parking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>

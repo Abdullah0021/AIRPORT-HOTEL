@@ -172,7 +172,7 @@
                     </ul>
 
                     <ul class="list-unstyled">
-                        <a href="contact.aspx" class="text-white" style="font-size:small">CONTACT</a>
+                        <a href="Contact.aspx" class="text-white" style="font-size:small">CONTACT</a>
                     </ul>
 
                     <ul class="list-unstyled">
@@ -190,9 +190,9 @@
 
                 <div class="col-md-4 mb-3">
                     <h5 class="text-uppercase" style="color:#004101"><b>Get Quote</b></h5><br>
-                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Booking</button>
-                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">Tender</button>
-                    <button class="btn btn-success btn-block mb-2" style="background-color:#004101">RFQ</button>
+                    <button class="btn btn-success btn-block mb-2" href="Booking.aspx" style="background-color:#004101">Booking</button>
+                    <button class="btn btn-success btn-block mb-2" href="Tender.aspx" style="background-color:#004101">Tender</button>
+                    <button class="btn btn-success btn-block mb-2" href="services.aspx" style="background-color:#004101">RFQ</button>
                 </div>
             </div>
         </div>
