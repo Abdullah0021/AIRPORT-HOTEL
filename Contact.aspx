@@ -82,6 +82,9 @@
                 max-width: 570px;
                 height: 100px;
             }
+            .social-icon {
+                font-size: 1.5rem; /* Adjust the size as needed */
+            }
         </style>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -148,27 +151,53 @@
                 </ul>  
 
                 <h8><b>Telephone:</b></h8>
-                <ul class="list-unstyled">
-                    <li><a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-phone" style="color: #054305; margin-right:15px;"></i>02134570141</a></li>
-                    <li><a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-phone" style="color: #054305; margin-right:15px;"></i>02134603737</a></li>
-                </ul>
-
+                <div class="row" style="margin-left:0px;">
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-phone" style="color: #054305; margin-right:15px;"></i>02134570141</a>
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-phone" style="color: #054305; margin-right:15px;"></i>02134603737</a>
+                    <br />
+                    <br />
+                    </div>
+                
                 <h8><b>Cell no:</b></h8>
-                <ul class="list-unstyled">
-                    <li><a class="nav-link text-secondary d-flex"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0333 2247509</a></li>
-                    <li><a class="nav-link text-secondary d-flex"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0300 2926206</a></li>
-                    <li><a class="nav-link text-secondary d-flex"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0332 8801133</a></li>
-                    <li><a class="nav-link text-secondary d-flex"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0317 0286813</a></li>
-                </ul>
+                <div class="row" style="margin-left:0px;">
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0333 2247509</a>
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0300 2926206</a>
+                    <div class="row" style="margin-left:0px;">
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0332 8801133</a>
+                    <a class="nav-link text-secondary d-flex align-items-center"><i class="fas fa-mobile-alt" style="color: #054305; margin-right:15px;"></i>0317 0286813</a>
+                </div>
+                    </div>
+                <br />
 
                 <h8><b>Follow us on:</b></h8>
+                <br />
                 <div class="row" style="margin-left:15px;">
-                    <a href="https://www.facebook.com/" class="text-secondary-dark mr-3"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/" class="text-secondary-dark mr-3"><i class="fab fa-youtube" style="color:red"></i></a>
-                    <a href="https://www.instagram.com/" class="text-secondary-dark mr-3"><i class="fab fa-instagram" style="color: #feda75"></i></a>
+                    <a href="https://www.facebook.com/" class="text-secondary-dark mr-3"><i class="fab fa-facebook social-icon"></i></a>
+                    <a href="https://www.youtube.com/" class="text-secondary-dark mr-3"><i class="fab fa-youtube social-icon" style="color:red"></i></a>
+                    <a href="https://www.instagram.com/" class="text-secondary-dark mr-3"><i class="fab fa-instagram social-icon" style="color: #feda75"></i></a>
                 </div>
             </div>
         </div>
+
+        <br />
+        <br />
+
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.090518726048!2d67.1515039748277!3d24.894893843879803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339bd2d90a76b%3A0x460266a51195680a!2sAirport%20Hotel!5e0!3m2!1sen!2s!4v1720596645519!5m2!1sen!2s" 
+            width="100%" height="450" style="border:0; padding:50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+<%--<script>
+    function myMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(51.508742, -0.120850),
+            zoom: 5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>--%>
+        <br />
+        <br />
     </body>
     </html>
 </asp:Content>
