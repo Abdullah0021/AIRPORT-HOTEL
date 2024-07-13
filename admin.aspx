@@ -78,7 +78,7 @@
             <br /><br />
             <asp:Button ID="btnShowTenders" runat="server" href="Tenders.aspx" CssClass="btn btn-custom" Text="Show Tender List" OnClick="btnShowTenders_Click" />
             <br /><br />
-            <asp:GridView ID="gvTenders" runat="server" href="Tenders.aspx" AutoGenerateColumns="False" CssClass="table table-striped table-bordered mt-3" Visible="False">
+            <%--<asp:GridView ID="gvTenders" runat="server" href="Tenders.aspx" AutoGenerateColumns="False" CssClass="table table-striped table-bordered mt-3" Visible="False">
                 <Columns>
                     <asp:BoundField DataField="Title" HeaderText="Title" />
                     <asp:ImageField DataImageUrlField="Thumbnail" HeaderText="Thumbnail" DataImageUrlFormatString="~/Uploads/{0}" ControlStyle-Height="50px" ControlStyle-Width="50px">
@@ -87,7 +87,7 @@
                     <asp:BoundField DataField="UploadDate" HeaderText="Upload Date" DataFormatString="{0:dd-MM-yyyy}" />
                     <asp:BoundField DataField="ExpiryDate" HeaderText="Expiry Date" DataFormatString="{0:dd-MM-yyyy}" />
                 </Columns>
-            </asp:GridView>
+            </asp:GridView>--%>
             </div>
     </form>
 </body>

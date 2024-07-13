@@ -66,9 +66,12 @@
     <Content Include="about.aspx" />
     <Content Include="Access-internet.aspx" />
     <Content Include="admin.aspx" />
+    <Content Include="Adminlogin.aspx" />
+    <Content Include="AdminRegister.aspx" />
     <Content Include="AdminUploadFiles.aspx" />
     <Content Include="Cafe-Fly.aspx" />
     <Content Include="Car-parking.aspx" />
+    <Content Include="Career.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Events.aspx" />
     <Content Include="Gallery.aspx" />
@@ -110,6 +113,20 @@
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Adminlogin.aspx.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminlogin.aspx.designer.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegister.aspx.cs">
+      <DependentUpon>AdminRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRegister.aspx.designer.cs">
+      <DependentUpon>AdminRegister.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminUploadFiles.aspx.cs">
       <DependentUpon>AdminUploadFiles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,6 +147,13 @@
     </Compile>
     <Compile Include="Car-parking.aspx.designer.cs">
       <DependentUpon>Car-parking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Career.aspx.cs">
+      <DependentUpon>Career.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Career.aspx.designer.cs">
+      <DependentUpon>Career.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

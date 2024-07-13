@@ -15,6 +15,8 @@
         .section {
             width: 100%;
             height: auto;
+            
+            
         }
         .center {
             text-align: center;
@@ -24,7 +26,7 @@
 
         <body>
             <div>
-        <img class="section" src="about.jpg" alt="About Image">
+        <img class="section" style="slide-inner" src="about.jpg" alt="About Image">
         <div class="center">
             <br />
             <br />

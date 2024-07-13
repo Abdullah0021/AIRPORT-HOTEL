@@ -223,9 +223,6 @@
                 <img src="ca2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="ca3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
                 <img src="ca4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
@@ -242,9 +239,6 @@
             </div>
             <div class="image-container">
                 <img src="ca9.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="ca10.jpg" alt="Avatar" class="image">
             </div>
     </div>
 
@@ -326,9 +320,6 @@
                 <img src="d1.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="d2.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
                 <img src="d3.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
@@ -349,9 +340,6 @@
     <div id="Game-id">
         <h2><b>Game Room</b></h2>
                 <div class="row">
-            <div class="image-container">
-                <img src="gm1.jpg" alt="Avatar" class="image">
-            </div>
             <div class="image-container">
                 <img src="gm2.jpg" alt="Avatar" class="image">
             </div>
@@ -418,9 +406,6 @@
                 <img src="j2.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
-                <img src="j3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
                 <img src="j4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
@@ -446,9 +431,6 @@
             </div>
             <div class="image-container">
                 <img src="ga3.jpg" alt="Avatar" class="image">
-            </div>
-            <div class="image-container">
-                <img src="ga4.jpg" alt="Avatar" class="image">
             </div>
             <div class="image-container">
                 <img src="ga5.jpg" alt="Avatar" class="image">

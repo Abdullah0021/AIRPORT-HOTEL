@@ -77,22 +77,24 @@ namespace AIRPORT_HOTEL
 
         protected void btnShowTenders_Click(object sender, EventArgs e)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["Tenders"].ConnectionString;
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                string query = "SELECT Title, Thumbnail, UploadDate, ExpiryDate FROM AdminUploads";
-                SqlCommand cmd = new SqlCommand(query, connection);
-                connection.Open();
+            Response.Redirect("Tenders.aspx");
+            //string connectionString = ConfigurationManager.ConnectionStrings["Tenders"].ConnectionString;
 
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+            //using (SqlConnection connection = new SqlConnection(connectionString))
+            //{
+            //    string query = "SELECT Title, Thumbnail, UploadDate, ExpiryDate FROM AdminUploads";
+            //    SqlCommand cmd = new SqlCommand(query, connection);
+            //    connection.Open();
 
-                gvTenders.DataSource = dt;
-                gvTenders.DataBind();
-                gvTenders.Visible = true;
-            }
+            //    SqlDataAdapter da = new SqlDataAdapter(cmd);
+            //    DataTable dt = new DataTable();
+            //    da.Fill(dt);
+
+            //    gvTenders.DataSource = dt;
+            //    gvTenders.DataBind();
+            //    gvTenders.Visible = true;
+           // }
         }
 
         private void ShowMessage(string message)
