@@ -17,7 +17,14 @@
                 DataKeyNames="Document" OnRowEditing="gvadmintenders_RowEditing" OnRowUpdating="gvadmintenders_RowUpdating"
                 OnRowCancelingEdit="gvadmintenders_RowCancelingEdit" OnRowDeleting="gvadmintenders_RowDeleting">
                 <Columns>
-                    <asp:BoundField DataField="Title" HeaderText="Title" />
+                    <asp:TemplateField HeaderText="Title">
+                        <ItemTemplate>
+                            <asp:Label ID="lblTitle" runat="server" Text='<%# Bind("Title") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtTitle" runat="server" Text='<%# Bind("Title") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
                     <asp:TemplateField HeaderText="Thumbnail">
                         <ItemTemplate>
                             <asp:Image ID="imgThumbnail" runat="server" ImageUrl='<%# String.Format("~/Uploads/{0}", Eval("Thumbnail")) %>'

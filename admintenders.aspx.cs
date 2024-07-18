@@ -115,16 +115,16 @@ namespace AIRPORT_HOTEL
             string document = gvadmintenders.DataKeys[e.RowIndex].Value.ToString(); // Get the document name of the row
 
             TextBox txtTitle = row.FindControl("txtTitle") as TextBox;
-            TextBox txtUploadDate = row.FindControl("txtUploadDate") as TextBox;
-            TextBox txtExpiryDate = row.FindControl("txtExpiryDate") as TextBox;
+            TextBox txtEditUploadDate = row.FindControl("txtEditUploadDate") as TextBox;
+            TextBox txtEditExpiryDate = row.FindControl("txtEditExpiryDate") as TextBox;
 
-            if (txtTitle != null && txtUploadDate != null && txtExpiryDate != null)
+            if (txtTitle != null && txtEditUploadDate != null && txtEditExpiryDate != null)
             {
                 string newTitle = txtTitle.Text;
                 DateTime newUploadDate;
                 DateTime newExpiryDate;
 
-                if (DateTime.TryParse(txtUploadDate.Text, out newUploadDate) && DateTime.TryParse(txtExpiryDate.Text, out newExpiryDate))
+                if (DateTime.TryParse(txtEditUploadDate.Text, out newUploadDate) && DateTime.TryParse(txtEditExpiryDate.Text, out newExpiryDate))
                 {
                     UpdateTender(document, newTitle, newUploadDate, newExpiryDate);
 
