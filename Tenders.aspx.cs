@@ -66,7 +66,7 @@ namespace AIRPORT_HOTEL
             List<Tender> tenders = new List<Tender>();
 
             // Replace with your connection string
-            string connectionString = "Data Source=DESKTOP-AIG1MD4\\SQLEXPRESS;Initial Catalog=Tenders;Integrated Security=True";
+            string connectionString = "Data Source=DESKTOP-NECUO9J;Initial Catalog=Tenders;Integrated Security=True";
 
             // SQL query to retrieve data
             string query = "SELECT Title, Thumbnail, UploadDate, ExpiryDate, Document FROM AdminUploads";

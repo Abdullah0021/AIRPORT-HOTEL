@@ -11,7 +11,7 @@ namespace AIRPORT_HOTEL
 {
 
 
-    public partial class Tenders
+    public partial class admintenders
     {
 
         /// <summary>
