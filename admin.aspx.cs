@@ -13,13 +13,13 @@ namespace AIRPORT_HOTEL
 {
     public partial class admin : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!IsPostBack)
+            protected void Page_Load(object sender, EventArgs e)
             {
-                lblUploadDateValue.Text = DateTime.Now.ToString("dd-MM-yyyy");
+                if (!IsPostBack)
+                {
+                    lblUploadDateValue.Text = DateTime.Now.ToString("dd-MM-yyyy");
+                }
             }
-        }
 
         protected void btnUpload_Click(object sender, EventArgs e)
         {
@@ -28,6 +28,7 @@ namespace AIRPORT_HOTEL
                 string title = txtTitle.Text;
                 string thumbnail = "APH.jpg";
 
+                // Save thumbnail file if uploaded
                 if (fuThumbnail.HasFile)
                 {
                     string fileName = Path.GetFileName(fuThumbnail.PostedFile.FileName);
@@ -35,22 +36,30 @@ namespace AIRPORT_HOTEL
                     thumbnail = fileName;
                 }
 
-                if (!fuDocument.HasFile || Path.GetExtension(fuDocument.PostedFile.FileName).ToLower() != ".pdf")
-                {
-                    ShowMessage("Only PDF documents are allowed.");
-                    return;
-                }
-
+                // Validate and save document (PDF only)
                 string document = null;
                 if (fuDocument.HasFile)
                 {
                     string docFileName = Path.GetFileName(fuDocument.PostedFile.FileName);
-                    fuDocument.SaveAs(Server.MapPath("~/Documents/") + docFileName);
-                    document = docFileName;
+                    if (Path.GetExtension(docFileName).ToLower() == ".pdf")
+                    {
+                        fuDocument.SaveAs(Server.MapPath("~/Uploads/") + docFileName);
+                        document = docFileName;
+                    }
+                    else
+                    {
+                        ShowMessage("Only PDF documents are allowed.");
+                        return;
+                    }
                 }
 
                 DateTime uploadDate = DateTime.Now;
-                DateTime expiryDate = DateTime.Parse(txtExpiryDate.Text);
+                DateTime expiryDate;
+                if (!DateTime.TryParseExact(txtExpiryDate.Text, "dd-MM-yyyy", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out expiryDate))
+                {
+                    ShowMessage("Expiry Date is not in the correct format (dd-MM-yyyy).");
+                    return;
+                }
 
                 string connectionString = ConfigurationManager.ConnectionStrings["Tenders"].ConnectionString;
 
@@ -66,41 +75,24 @@ namespace AIRPORT_HOTEL
 
                     connection.Open();
                     cmd.ExecuteNonQuery();
-                    connection.Close();
                 }
 
-                // Show success message in popup
+                // Show success message in alert
                 string script = "alert('Upload Successful!');";
                 ClientScript.RegisterStartupScript(this.GetType(), "SuccessMessage", script, true);
             }
         }
 
+
         protected void btnShowTenders_Click(object sender, EventArgs e)
-        {
+            {
+                Response.Redirect("admintenders.aspx");
+            }
 
-            Response.Redirect("Tenders.aspx");
-            //string connectionString = ConfigurationManager.ConnectionStrings["Tenders"].ConnectionString;
-
-            //using (SqlConnection connection = new SqlConnection(connectionString))
-            //{
-            //    string query = "SELECT Title, Thumbnail, UploadDate, ExpiryDate FROM AdminUploads";
-            //    SqlCommand cmd = new SqlCommand(query, connection);
-            //    connection.Open();
-
-            //    SqlDataAdapter da = new SqlDataAdapter(cmd);
-            //    DataTable dt = new DataTable();
-            //    da.Fill(dt);
-
-            //    gvTenders.DataSource = dt;
-            //    gvTenders.DataBind();
-            //    gvTenders.Visible = true;
-           // }
-        }
-
-        private void ShowMessage(string message)
-        {
-            string script = $"alert('{message}');";
-            ClientScript.RegisterStartupScript(this.GetType(), "ErrorMessage", script, true);
+            private void ShowMessage(string message)
+            {
+                string script = $"alert('{message}');";
+                ClientScript.RegisterStartupScript(this.GetType(), "ErrorMessage", script, true);
+            }
         }
     }
-}

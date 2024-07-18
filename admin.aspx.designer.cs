@@ -33,15 +33,6 @@ namespace AIRPORT_HOTEL
         protected global::System.Web.UI.WebControls.TextBox txtTitle;
 
         /// <summary>
-        /// rfvTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTitle;
-
-        /// <summary>
         /// fuThumbnail control.
         /// </summary>
         /// <remarks>
@@ -60,15 +51,6 @@ namespace AIRPORT_HOTEL
         protected global::System.Web.UI.WebControls.FileUpload fuDocument;
 
         /// <summary>
-        /// rfvDocument control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDocument;
-
-        /// <summary>
         /// lblUploadDateValue control.
         /// </summary>
         /// <remarks>
@@ -85,15 +67,6 @@ namespace AIRPORT_HOTEL
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtExpiryDate;
-
-        /// <summary>
-        /// rfvExpiryDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvExpiryDate;
 
         /// <summary>
         /// btnUpload control.

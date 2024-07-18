@@ -44,7 +44,7 @@
     <form id="form1" runat="server">
         <div class="container mt-4">
             <div class="logo">
-                <img src="APHH.png" alt="Logo" style="width: 90px; height: 80px;">
+                <img src="APHH.png" alt="Logo" style="width: 90px; height: 80px;"/>
             </div>
             <div class="header">
                 <h2>Admin Register</h2>

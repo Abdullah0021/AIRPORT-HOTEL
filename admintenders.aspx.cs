@@ -6,22 +6,22 @@ using System.Web.UI.WebControls;
 
 namespace AIRPORT_HOTEL
 {
-    public partial class Tenders : System.Web.UI.Page
+    public partial class admintenders : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                BindTenders();
+                Bindadmintenders();
             }
         }
 
-        private void BindTenders()
+        private void Bindadmintenders()
         {
             List<Tender> tenders = GetTendersFromDatabase();
 
-            gvTenders.DataSource = tenders;
-            gvTenders.DataBind();
+            gvadmintenders.DataSource = tenders;
+            gvadmintenders.DataBind();
         }
 
         protected void btnDownload_Click(object sender, EventArgs e)
