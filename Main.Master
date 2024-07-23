@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
    <style>
         .custom-button {
-            background-color:darkgoldenrod; /* Golden color */
+            background-color:#c6b452; /* Golden color */
             color:white;
         }
 
@@ -38,7 +38,7 @@
         }
 
         .navbar-nav .nav-item .nav-link:hover {
-        color: #ffd700 !important; /* gold color on hover */
+        color: #c6b452 !important; /* gold color on hover */
         }
 
         .navbar-nav .nav-item.active .nav-link {

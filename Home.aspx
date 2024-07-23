@@ -6,14 +6,39 @@
     <!DOCTYPE html>
     <html>
     <head>
-         <%--  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<%--        <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">--%>
         <style>
-    .list-unstyled li:hover a {
-        color: #c6b452 !important; /* Change color to gold on hover */
-    }
+        .list-unstyled li:hover a {
+           color: #c6b452 !important; /* Change color to gold on hover */
+        }
+        .carousel-container {
+           display: flex;
+           align-items: center;
+        }
+        .carousel-inner img {
+            width: 50%;
+            height: 300px;            
+            object-fit: cover;
+
+        }
+        
+        @media (max-width: 991px) {
+            .carousel-container {
+                margin-top: 20px;
+            }
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #004101;
+            padding: 20px;
+            text-align: center;
+        }
 </style>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -32,7 +57,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner-1">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="./1.jpg" height="500px" width="300px" alt="First slide">
                 </div>
@@ -107,7 +132,7 @@
         <br />
         <br />
         
-     <div class="row" style="margin:auto;">
+     <div class="row" style="margin:auto; padding:50px;">
     <div class="col-sm-4" style="width:400px;">
         <img src="e1.jpg" style="width:100%; height:350px;" />
         <br />
@@ -140,49 +165,53 @@
         <br />
         <br />
 
-        <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
-    
-            <div class="col-sm-5">
-        <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px"><b>SUITE ROOMS</b></h7>
-        <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
-        <p style="font-size: large; color: white; margin: 0;">
-            Luxurious yet comfortable rooms at prime prices in five different categories: Standard, Deluxe, Executive, Cooperative Club, and Suites. The furnished rooms with marble bathrooms, LEDs, and splits, along with the facility of service and high-speed internet access. All you want is here, with room service, laundry, and housekeeping for deep cleaning of the rooms.
-        </p>
-    </div>
-    <div class="carousel-container" style="width: 450px; margin-left: 20px; style="position:fixed">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="sr1.jpg" alt="First slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr2.jpg" alt="Second slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr3.jpg" alt="Third slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr4.jpg" alt="Fourth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr5.jpg" alt="Fifth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr6.jpg" alt="Sixth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="sr7.jpg" alt="Seventh slide" style="border: 2px solid #c6b452;">
+        <div class="section" style="background-color: #004101; width: auto; padding: 20px;">
+        <div class="row">
+            <div class="col-lg-5 col-12 order-lg-1 order-2">
+                <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>SUITE ROOMS</b></h7>
+                <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
+                <p style="font-size: large; color: white; margin: 0;">
+                    Luxurious yet comfortable rooms at prime prices in five different categories: Standard, Deluxe, Executive, Cooperative Club, and Suites. 
+                    The furnished rooms with marble bathrooms, LEDs, and splits, along with the facility of service and high-speed internet access. All you want is here, with room service, laundry, and housekeeping for deep cleaning of the rooms.
+                </p>
+            </div>
+
+            <div class="col-lg-7 col-12 order-lg-2 order-1 carousel-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr1.jpg" alt="First slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr2.jpg" alt="Second slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr3.jpg" alt="Third slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr4.jpg" alt="Fourth slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr5.jpg" alt="Fifth slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr6.jpg" alt="Sixth slide" style="border: 2px solid #c6b452;">
+                        </div>
+                        <div class="carousel-item" style="width:auto;height:300px;">
+                            <img class="d-block w-100" src="sr7.jpg" alt="Seventh slide" style="border: 2px solid #c6b452;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
         <br />
         <br />
         <br />
         <br />
 
-        <div class="row" style="margin:auto;">
+        <div class="row" style="margin:auto; padding:50px;">
     <div class="col-sm-4" style="width:400px;">
         <img src="s1.jpg" style="width:100%; height:400px;" />
         <br />
@@ -216,42 +245,46 @@
         <br />
 
         <div class="section" style="background-color: #004101; width: auto; display: flex; align-items: flex-start; padding: 20px;">
-    <div class="col-sm-5">
-    <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>CORPORATE LOUNGE</b></h7>
-    <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
-    <p style="font-size: large; color: white; margin: 0;">
-        The decorated glassed air conditioned room with the comfortable sofas where the guest can relax and watch the channels on LED or read a newspaper or a nice book in the most peaceful silent environment while waiting. On the ground floor, the corporate room is also reserved for personalized meetings where you can discuss queries.
-    </p>    
-    </div>
+    <div class="row">
+        <div class="col-lg-5 col-12 order-lg-1 order-2">
+            <h7 style="color: #c6b452; font-size: 23px; margin-bottom: 10px;"><b>CORPORATE LOUNGE</b></h7>
+            <hr style="border: 0; height: 3px; background-color: #c6b452; margin: 10px 0;" />
+            <p style="font-size: large; color: white; margin: 0;">
+                The decorated glassed air conditioned room with the comfortable sofas where the guest can relax and watch the channels on LED or read a 
+                newspaper or a nice book in the most peaceful silent environment while waiting. On the ground floor, the corporate room is also reserved for personalized meetings where you can discuss queries.
+            </p>
+        </div>
 
-    <div class="carousel-container" style="width: 450px; margin-left: 20px;">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="cr1.jpg" alt="First slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr2.jpg" alt="Second slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr3.jpg" alt="Third slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr4.jpg" alt="Fourth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr5.jpg" alt="Fifth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr6.jpg" alt="Sixth slide" style="border: 2px solid #c6b452;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="cr7.jpg" alt="Seventh slide" style="border: 2px solid #c6b452;">
+        <div class="col-lg-7 col-12 order-lg-2 order-1 carousel-container" style="margin-top: 20px;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height:300px;">
+                        <img class="d-block w-100" src="cr1.jpg" alt="First slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr2.jpg" alt="Second slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr3.jpg" alt="Third slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr4.jpg" alt="Fourth slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr5.jpg" alt="Fifth slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr6.jpg" alt="Sixth slide" style="border: 2px solid #c6b452;">
+                    </div>
+                    <div class="carousel-item" style="height:300px;">
+                        <img class="d-block w-100" src="cr7.jpg" alt="Seventh slide" style="border: 2px solid #c6b452;">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
         <br />
         <br />
         <br />

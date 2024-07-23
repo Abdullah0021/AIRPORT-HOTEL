@@ -83,6 +83,7 @@
     <Content Include="Restaurant.aspx" />
     <Content Include="Room-service.aspx" />
     <Content Include="Sauna-bath.aspx" />
+    <Content Include="Services.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Swimming-Pool.aspx" />
     <Content Include="Tenders.aspx" />
@@ -243,6 +244,13 @@
     </Compile>
     <Compile Include="Sauna-bath.aspx.designer.cs">
       <DependentUpon>Sauna-bath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Swimming-Pool.aspx.cs">
       <DependentUpon>Swimming-Pool.aspx</DependentUpon>
